@@ -9,6 +9,9 @@ import { DashbordComponent } from './dashbord/dashbord.component';
 import { HeaderComponent } from './header/header.component';
 import { HomeComponent } from './home/home.component';
 import { SidenavComponent } from './sidenav/sidenav.component';
+import { RegistrationComponent } from './registration/registration.component';
+import { FormsModule } from '@angular/forms';
+
 
 @NgModule({
   declarations: [
@@ -16,13 +19,15 @@ import { SidenavComponent } from './sidenav/sidenav.component';
     DashbordComponent,
     HeaderComponent,
     HomeComponent,
-    SidenavComponent
+    SidenavComponent,
+    RegistrationComponent
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
     MaterialModule,
-    BrowserAnimationsModule
+    BrowserAnimationsModule,
+    FormsModule
   ],
   providers: [],
   bootstrap: [AppComponent]

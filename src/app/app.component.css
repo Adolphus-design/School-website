@@ -12,3 +12,16 @@ mat-drawer{
 mat-drawer-container{
     height: 100%;
 }
+
+mat-sidenav, mat-sidenav-container{
+    height: 100%;
+}
+
+mat-sidenav, mat-sidenav-content{
+    padding: 16px;
+}
+
+mat-sidenav{
+    background-color: skyblue;
+    width: 200px;
+}
